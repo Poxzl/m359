@@ -37,7 +37,8 @@ public class pizza {
 
     //create an output with the pizzas onfo, but instead of printing it, return it
     public String toString(){
-        String output = this.inches + "inch pizzas from " + this.store;
+        String output = this.inches + "inch pizzas from blnfhwofhwhgp" +
+                 + this.store;
         output += "toppings: " + this.numToppings;
         output += "has deep dish? " + this.isDeepDish;
         return output;
