@@ -15,10 +15,10 @@ public class Review {
         String output = reviewer + ", " + buisness + ", " + rating;
 
         if (rating == 5){
-            output += "/nHIGLY GOOD";
+            output += "\nHIGLY GOOD";
         }
         else if (rating == 1){
-            output += "/nHIGLY BAD";
+            output += "\nHIGLY BAD";
         }
         return output;
     }
