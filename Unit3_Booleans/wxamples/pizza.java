@@ -25,7 +25,7 @@ public class pizza {
 
     //returns true if the two pizzas are equal
     public boolean equals(pizza other){
-        return (this.store.equals(other.store));
+        return (this.inches == other.inches);
     }
 
     public void printInfo(){
@@ -41,6 +41,10 @@ public class pizza {
         output += "toppings: " + this.numToppings;
         output += "has deep dish? " + this.isDeepDish;
         return output;
+    }
+
+    public int compareTo(pizza other){
+        return (this.inches - other.inches);
     }
 
 
