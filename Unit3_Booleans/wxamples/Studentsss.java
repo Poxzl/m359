@@ -10,16 +10,16 @@ public class Studentsss {
         this.lName = lName;
         this.idNum = idNum;
     }
-
+/*
     public boolean equals(Studentsss other){
         return (this.lName.equals(other.lName));
     }
     public int compareTo(Studentsss other){
-        if(this.lName.compareTo(other.lName){
+        if(this.lName.compareTo(other.lName)){
             return 0;
         }
     }
-
+*/
 
     public String getfName() {
         return fName;

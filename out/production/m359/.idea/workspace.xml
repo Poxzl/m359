@@ -26,7 +26,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.CompoundBooleansExamples">
+  <component name="RunManager" selected="Application.ChevyDriver">
+    <configuration name="ChevyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans.ChevyLab.ChevyDriver" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit3_Booleans.ChevyLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompoundBooleansExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit3_Booleans.wxamples.CompoundBooleansExamples" />
       <module name="m359" />
@@ -68,9 +81,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChevyDriver" />
+        <item itemvalue="Application.PizzaTester" />
         <item itemvalue="Application.CompoundBooleansExamples" />
         <item itemvalue="Application.ReviewTester" />
-        <item itemvalue="Application.PizzaTester" />
       </list>
     </recent_temporary>
   </component>
