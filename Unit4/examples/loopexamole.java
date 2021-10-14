@@ -11,7 +11,7 @@ public class loopexamole {
             String lol = mySchool.substring(i, i + 1);
             System.out.print(lol);
         }
-
+        
 
         System.out.println("");
         // print the String mySchool in reverse (all characters on the same line)
@@ -91,7 +91,5 @@ public class loopexamole {
             }else isDonern = true;
         }
         System.out.println(phrase);
-
-
     }
 }
