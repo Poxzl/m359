@@ -34,7 +34,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.forloopexsaoo">
+  <component name="RunManager" selected="Application.PigLatinTester">
+    <configuration name="PigLatinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4.LabPilgsitalatin.PigLatinTester" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit4.LabPilgsitalatin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="forloopexsaoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit4.examples.forloopexsaoo" />
       <module name="m359" />
@@ -87,26 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whileleiop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.examples.whileleiop" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit4.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PigLatinTester" />
         <item itemvalue="Application.forloopexsaoo" />
         <item itemvalue="Application.loopexamole" />
         <item itemvalue="Application.notesforloop" />
         <item itemvalue="Application.guessnunmprgogram" />
-        <item itemvalue="Application.whileleiop" />
       </list>
     </recent_temporary>
   </component>
