@@ -1,20 +1,23 @@
 package Unit4.LabPilgsitalatin;
 
+import java.util.Locale;
+
 public class PigLatin {
     public static String toPigLatin(String str){
         int lent = str.length();
         String output = "";
-        while(str.indexOf(" ") != -1){
-            System.out.println(str.indexOf(" "));
+        //goes through the string translating every word
+        while(str.indexOf(" ") > 0){
             String word = str.substring(0, str.indexOf(" "));
             output += translateWordToPigLatin(word);
             str = str.substring(str.indexOf(" ") + 1);
         }
+        //makes only the first letter capitalized
         output += translateWordToPigLatin(str);
         output = output.toLowerCase();
-        String firstWord =
-        return output;
-    }
+        String firstLetter = output.substring(0, 1);
+        return firstLetter.toUpperCase(Locale.ROOT) + output.substring(1);
+    }// turns a word into piglatin
     public static String translateWordToPigLatin(String word){
         boolean strtVow = false;
         String conClust = "";
@@ -23,8 +26,8 @@ public class PigLatin {
         String letter = word.substring(0, 1);
         if(isVowel(letter)){
             strtVow = true;
-        }else{
-            for (int i = 0; i < word.length(); i++) {
+        }else{// finds the first vowel
+            for (int i = 1; i < word.length(); i++) {
                 if(isVowel(word.substring(i, i + 1))){
                     hasClust = true;
                     conClust = word.substring(0, i);
@@ -32,13 +35,13 @@ public class PigLatin {
                     i = word.length() + 1;
                 }
             }
-        }
+        }//checks how the english word is labeled and makes it into pig Latin
         if(strtVow){
             return word + "yay ";
         }else{
             return vowClust + conClust + "ay ";
         }
-    }
+    }//checks if a letter is a vowel
     public static boolean isVowel(String letter){
         if(letter.equalsIgnoreCase("a") || letter.equalsIgnoreCase("e") || letter.equalsIgnoreCase("i") || letter.equalsIgnoreCase("o") || letter.equalsIgnoreCase("u")){
             return true;
