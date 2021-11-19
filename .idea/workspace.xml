@@ -35,13 +35,52 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.PigLatinTester">
+  <component name="RunManager" selected="Application.StudentTester">
+    <configuration name="BasketballTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit5.lab.BasketballTester" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit5.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarvelHeroTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit5.examples.marvel.MarvelHeroTester" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit5.examples.marvel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PigLatinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit4.LabPilgsitalatin.PigLatinTester" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Unit4.LabPilgsitalatin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unut6.exampels.StudentTester" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unut6.exampels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,52 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="guessnunmprgogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.examples.guessnunmprgogram" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit4.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loopexamole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.examples.loopexamole" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit4.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="notesforloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.examples.notesforloop" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit4.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTester" />
+        <item itemvalue="Application.BasketballTester" />
+        <item itemvalue="Application.MarvelHeroTester" />
         <item itemvalue="Application.PigLatinTester" />
         <item itemvalue="Application.forloopexsaoo" />
-        <item itemvalue="Application.loopexamole" />
-        <item itemvalue="Application.notesforloop" />
-        <item itemvalue="Application.guessnunmprgogram" />
       </list>
     </recent_temporary>
   </component>
