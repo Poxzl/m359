@@ -20,8 +20,14 @@ public class course {
         this.currentGrade = "nOne";
     }
 
+    @Override
     public String toString() {
-        return "course" + "teacherName='" + teacherName + '\'' + ", subject='" + subject + '\'' + ", currentGrade='" + currentGrade + '\'' + ", period=" + period;
+        return "course{" +
+                "teacherName='" + teacherName + '\'' +
+                ", subject='" + subject + '\'' +
+                ", currentGrade='" + currentGrade + '\'' +
+                ", period=" + period +
+                '}';
     }
 
     public String getTeacherName() {
