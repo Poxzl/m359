@@ -40,7 +40,7 @@
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScheduleReadingExample">
+  <component name="RunManager" selected="Application.StudentTester">
     <configuration name="BasketballTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit5.lab.BasketballTester" />
       <module name="m359" />
@@ -108,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.ScheduleReadingExample" />
         <item itemvalue="Application.FileReadingExample" />
-        <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.BasketballTester" />
         <item itemvalue="Application.MarvelHeroTester" />
       </list>

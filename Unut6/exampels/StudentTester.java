@@ -14,7 +14,7 @@ public class StudentTester {
 
         course[] sched = {per1, per2, per3, per4, per5, per6, per7, per8};
 
-        Student s1 = new Student(name);
+        Student s1 = new Student(name, sched);
         System.out.println(s1);
     }
 }
