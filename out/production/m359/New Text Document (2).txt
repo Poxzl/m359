@@ -1,21 +1,21 @@
 What is Mr. Moon's favorite color?
 200
-Green
-Red
-Blue
-Purple
-2
+(1) Green
+(2) Red
+(3) Blue
+(4) Purple
+1
 What is MY favorite color?
 100
-Red
-Blue
-Dark Blue
-Purple
-4
+(1)Red
+(2)Blue
+(3)Dark Blue
+(4)Purple
+3
 What is the color of grass?
 35
-Red
-Green
-Dark Red
-Purple
+(1)Red
+(2)Green
+(3)Dark Red
+(4)Purple
 2
