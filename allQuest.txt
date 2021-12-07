@@ -19,3 +19,10 @@ What is the color of grass?
 (3)Dark Red
 (4)Purple
 2
+What color has the highest energy on the electromagnetic spectrum?
+300
+(1)Dark Red
+(2)Violet
+(3)Black
+(4)White
+2
