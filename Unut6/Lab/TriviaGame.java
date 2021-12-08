@@ -5,15 +5,15 @@ import java.util.Scanner;
 import java.io.File;
 
 public class TriviaGame {
-    private Question[] myTriv;
+    private Question[] myTriv = new Question[4];
     private int streak;
     private int totalPoints;
 
 
-    public TriviaGame(Question[] myTriv, int streak, int totalPoints) throws FileNotFoundException{
-        this.myTriv = myTriv;
-        this.streak = streak;
-        this.totalPoints = totalPoints;
+    public TriviaGame() throws FileNotFoundException{
+        this.streak = 0;
+        this.totalPoints = 0;
+
         // read in from the file into myTriv array
         File myFile = new File("allQuest.txt");
         Scanner fileIn = new Scanner(myFile);
@@ -31,8 +31,36 @@ public class TriviaGame {
                     fileIn.nextLine();
                 }
                 Question myQuestion = new Question(questText, points, a1, a2, a3, a4, correctAnswer);
-                System.out.println(myQuestion);
+                //System.out.println(myQuestion);
                 myTriv[i] = myQuestion;
         }
+    }
+
+    public Question[] getQuestIdx(int idx){
+        //return myTriv[idx]
+    }
+
+    public Question[] getMyTriv() {
+        return myTriv;
+    }
+
+    public void setMyTriv(Question[] myTriv) {
+        this.myTriv = myTriv;
+    }
+
+    public int getStreak() {
+        return streak;
+    }
+
+    public void setStreak(int streak) {
+        this.streak = streak;
+    }
+
+    public int getTotalPoints() {
+        return totalPoints;
+    }
+
+    public void setTotalPoints(int totalPoints) {
+        this.totalPoints = totalPoints;
     }
 }

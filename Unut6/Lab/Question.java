@@ -21,15 +21,7 @@ public class Question {
 
     @Override
     public String toString() {
-        return "Question{" +
-                "qText='" + qText + '\'' +
-                ", value=" + value +
-                ", a1='" + a1 + '\'' +
-                ", a2='" + a2 + '\'' +
-                ", a3='" + a3 + '\'' +
-                ", a4='" + a4 + '\'' +
-                ", numCor=" + numCor +
-                '}';
+        return qText + "\n" + value + "\n" + a1 + "\n" + a2 + "\n" +a3 + "\n" +a4 + "\n";
     }
 
     public String getqText() {
