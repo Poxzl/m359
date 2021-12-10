@@ -36,8 +36,12 @@ public class TriviaGame {
         }
     }
 
-    public Question[] getQuestIdx(int idx){
-        //return myTriv[idx]
+    public void printQuestion(int idx){
+        System.out.println("ergerge");
+    }
+
+    public Question getQuest(int idx){
+        return myTriv[idx];
     }
 
     public Question[] getMyTriv() {

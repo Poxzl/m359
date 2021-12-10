@@ -14,14 +14,15 @@ public class TriviaDriver {
         System.out.println("What is your name?");
         String name = input.nextLine();
         System.out.println("Hi " + name);
-        System.out.println(game);
-        // pick a random question, display it
+        for (int i = 0; i < 4; i++) {
+            // pick a random question, display it
+            game.printQuestion(i);
+
+            // read user's answer (input)
 
 
-        // read user's answer (input)
+            // check if it's right or wrong, and handle appropriately
 
-
-        // check if it's right or wrong, and handle appropriately
-
+        }
     }
 }
