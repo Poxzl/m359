@@ -8,7 +8,16 @@ public class TriviaGame {
     private Question[] myTriv = new Question[4];
     private int streak;
     private int totalPoints;
+    private int[] questionsChose = new int[4];
 
+
+    public int[] getQuestionsChose() {
+        return questionsChose;
+    }
+
+    public void setQuestionsChose(int[] questionsChose) {
+        this.questionsChose = questionsChose;
+    }
 
     public TriviaGame() throws FileNotFoundException{
         this.streak = 0;

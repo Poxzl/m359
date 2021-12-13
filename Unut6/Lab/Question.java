@@ -21,7 +21,7 @@ public class Question {
 
     @Override
     public String toString() {
-        return qText + "\n" + value + "\n\t" + a1 + "\n\t" + a2 + "\n\t" +a3 + "\n\t" +a4 + "\n";
+        return qText + "\n" + value + "\n\t" + a1 + "\n\t" + a2 + "\n\t" +a3 + "\n\t" +a4 + "\n\t" + numCor;
     }
 
     public String getqText() {
