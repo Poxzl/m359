@@ -9,6 +9,9 @@ public class Question {
     private String a4;
     private int numCor;
 
+    private boolean isUsed = false;
+
+
     public Question(String qText, int value, String a1, String a2, String a3, String a4, int numCor) {
         this.qText = qText;
         this.value = value;
@@ -78,5 +81,13 @@ public class Question {
 
     public void setNumCor(int numCor) {
         this.numCor = numCor;
+    }
+
+    public boolean isUsed() {
+        return isUsed;
+    }
+
+    public void setUsed(boolean used) {
+        isUsed = used;
     }
 }

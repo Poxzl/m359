@@ -14,14 +14,24 @@ public class TriviaDriver {
         System.out.println("What is your name?");
         String name = input.nextLine();
         System.out.println("Hi " + name);
-        for (int i = 0; i < 5; i++) {
-            int questchose = (int)(Math.random() * 5);
-            for (int j = 0; j < game.getQuestionsChose().length - 1; j++) {
-                if(game.getQuestionsChose())
-            }
-        }
-            // pick a random question, display it
 
+
+
+        while (true) {
+            // pick a random # 0-11
+            int rndm = (int) (Math.random() * 4);
+            // check if that question has already been used
+            if(game.getMyTriv()[rndm].isUsed() == false){
+                System.out.println(game.getMyTriv()[rndm].toString());
+                break;
+            }
+
+            // while it's no good, pick a new #
+
+            // at this point, our random # is good, so display that q
+        }
+    }
+            // pick a random question, display it
 
             // read user's answer (input)
 
