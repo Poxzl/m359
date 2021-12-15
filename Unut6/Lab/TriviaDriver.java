@@ -9,27 +9,27 @@ public class TriviaDriver {
         TriviaGame game = new TriviaGame();
 
 
-        // ask for their name and greet them
+        System.out.println("TRIVIA TIME!!!!!! :0");
+
         Scanner input = new Scanner(System.in);
         System.out.println("What is your name?");
         String name = input.nextLine();
-        System.out.println("Hi " + name);
-
-
-
-        while (true) {
-            // pick a random # 0-11
-            int rndm = (int) (Math.random() * 4);
-            // check if that question has already been used
-            if(game.getMyTriv()[rndm].isUsed() == false){
-                System.out.println(game.getMyTriv()[rndm].toString());
+        System.out.println("welcome " + name + "\nLet's play some TRIVIA!!!!");
+        //welcome name, say rules
+        System.out.println("type START! to start");
+        //type start
+        while(true){
+            if(input.nextLine().equals("START!")){
                 break;
             }
-
-            // while it's no good, pick a new #
-
-            // at this point, our random # is good, so display that q
+            System.out.println("I think you meant to say START!");
         }
+
+
+        System.out.println(game.getRanQuestion());
+        System.out.println(game.getRanQuestion());
+        System.out.println(game.getRanQuestion());
+        System.out.println(game.getRanQuestion());
     }
             // pick a random question, display it
 
@@ -39,4 +39,3 @@ public class TriviaDriver {
             // check if it's right or wrong, and handle appropriately
 
     }
-}

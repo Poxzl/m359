@@ -10,6 +10,21 @@ public class TriviaGame {
     private int totalPoints;
     private int[] questionsChose = new int[4];
 
+    public String getRanQuestion(){
+        while (true) {
+            // pick a random # 0-11
+            int rndm = (int) (Math.random() * 4);
+            // check if that question has already been used
+            if(this.getMyTriv()[rndm].isUsed() == false){
+                return this.getMyTriv()[rndm].toString();
+            }
+
+            // while it's no good, pick a new #
+
+            // at this point, our random # is good, so display that q
+        }
+    }
+
 
     public int[] getQuestionsChose() {
         return questionsChose;
