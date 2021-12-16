@@ -1,6 +1,26 @@
 package Unut6.Lab;
-
 import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.io.File;
+
+public class TriviaDriver {
+    public static void main(String[] args) throws FileNotFoundException {
+        TriviaGame game = new TriviaGame();
+
+        //Prints all the starting statements
+        game.start();
+
+        //Prints all the Questions and asks for answers
+        game.printNAnswerQuestions();
+
+        //writes the finishing code and gives the details bout how you did
+        game.finished();
+    }
+}
+
+
+
+/*import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.io.File;
 
@@ -39,3 +59,4 @@ public class TriviaDriver {
             // check if it's right or wrong, and handle appropriately
 
     }
+*/
