@@ -105,7 +105,7 @@ public class NOTESSSss {
      * @param vals ArrayList to remove values from
      */
     public static void removeEvensForward(ArrayList<Integer> vals) {
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i < 5; i++) {
             
         }
     }

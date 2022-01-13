@@ -34,27 +34,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chavan1635\Documents\GitHub\m359\Unit7\Ticketmasterlab" />
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NOTESSSss">
-    <configuration name="FileReadingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unut6.exampels.FileReadingExample" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unut6.exampels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TicketMasterDriver">
     <configuration name="NOTESSSss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7.NOTESSSss" />
       <module name="m359" />
@@ -94,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketMasterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit7.Ticketmasterlab.TicketMasterDriver" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit7.Ticketmasterlab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TriviaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unut6.Lab.TriviaDriver" />
       <module name="m359" />
@@ -109,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.NOTESSSss" />
         <item itemvalue="Application.TriviaDriver" />
         <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.ScheduleReadingExample" />
-        <item itemvalue="Application.FileReadingExample" />
       </list>
     </recent_temporary>
   </component>
