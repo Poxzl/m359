@@ -45,13 +45,13 @@
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
+  <component name="RunManager" selected="Application.NOTESSSss">
     <configuration name="NOTESSSss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.NOTESSSss" />
+      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.NOTESSSss" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.*" />
+          <option name="PATTERN" value="Unit7.Examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.NOTESSSss" />
+        <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.TriviaDriver" />
         <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.ScheduleReadingExample" />
