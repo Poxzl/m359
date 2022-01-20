@@ -17,7 +17,7 @@ public class Show {
 
     @Override
     public String toString() {
-        return "date: " + date + " || price: " + price + " || quantity: " + quantity + " || performer: " + performer + " || city: " + city;
+        return "date: " + date + " || price: " + price + " || quantity: " + quantity + " || performer: " + performer + " || city: " + city + "\n";
     }
 
     public String getDate() {

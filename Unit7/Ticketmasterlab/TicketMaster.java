@@ -10,9 +10,13 @@ public class TicketMaster {
 
 
     public TicketMaster() throws FileNotFoundException {
+        makeShows();
+    }
+
+    public void makeShows() throws FileNotFoundException {
         File myFile = new File("showData.txt");
         Scanner fileIn = new Scanner(myFile);
-        while(fileIn.hasNextLine()){
+        while (fileIn.hasNextLine()) {
             String date = fileIn.next();
             double price = fileIn.nextDouble();
             int quant = fileIn.nextInt();
@@ -21,7 +25,15 @@ public class TicketMaster {
             String performer = namesandplace.substring(0, index);
             String city = namesandplace.substring(index + 2);
             Show show = new Show(date, price, quant, performer, city);
-            System.out.println(show);
+            shows.add(show);
         }
+    }
+
+    public ArrayList<Show> getShows() {
+        return shows;
+    }
+
+    public void setShows(ArrayList<Show> shows) {
+        this.shows = shows;
     }
 }

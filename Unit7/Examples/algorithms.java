@@ -120,6 +120,11 @@ public class algorithms {
          * @return true or false if increasing
          */
         public static boolean isIncreasing(ArrayList<Integer> list) {
+            for(int i = 0; i < list.size() - 1; i++){
+                if(list.get(i) > list.get(i + 1)){
+                    return false;
+                }
+            }
             return true;
         }
 
@@ -130,7 +135,14 @@ public class algorithms {
          * @return true if any values are repeated, false otherwise
          */
         public static boolean hasDuplicates(ArrayList<String> list) {
-            return true;
+            for (int i = 0; i < list.size(); i++) {
+                for (int j = 0; j < list.size(); j++) {
+                    if(list.get(i).equals(list.get(j))){
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
         /**
@@ -139,9 +151,13 @@ public class algorithms {
          * @param list
          * @return new ArrayList of Strings in reverse order
          */
-        public static ArrayList<String> revArrayList(ArrayList<String> list) {
-            return list;
-        }
+       // public static ArrayList<String> revArrayList(ArrayList<String> list) {
+          //  ArrayList<String> revList = new ArrayList<>();
+          //  for (int i = list.size(); i > 0; i--) {
+                //revList.add
+         //   }
+            //    return "bru";
+       // }
 
         /**
          * Shifts all values in list to the Left and the value at index 0 is moved
@@ -149,7 +165,10 @@ public class algorithms {
          * @param list
          */
         public static void shiftLeft(ArrayList<String> list) {
-
+            list.set(list.size(), list.get(0));
+            for (int i = list.size(); i > 0; i--) {
+                list.set(i - 1, list.get(i));
+            }
         }
 
 
