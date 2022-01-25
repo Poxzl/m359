@@ -46,8 +46,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.TicketMasterDriver">
-    <configuration name="NOTESSSss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.NOTESSSss" />
+    <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.BinarySearchExample" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
@@ -114,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TicketMasterDriver" />
+        <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.algorithms" />
         <item itemvalue="Application.tricatbcblocks" />
         <item itemvalue="Application.TriviaDriver" />
-        <item itemvalue="Application.NOTESSSss" />
       </list>
     </recent_temporary>
   </component>

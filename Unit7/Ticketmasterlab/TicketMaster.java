@@ -6,10 +6,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TicketMaster {
-    private ArrayList<Show> shows = new ArrayList<Show>();
+    private ArrayList<Show> shows;
 
 
     public TicketMaster() throws FileNotFoundException {
+        shows = new ArrayList<>();
         makeShows();
     }
 
@@ -35,5 +36,16 @@ public class TicketMaster {
 
     public void setShows(ArrayList<Show> shows) {
         this.shows = shows;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("Date| Price| Quantity| Name| City");
+        String output = "";
+        for (Show a : shows
+             ) {
+            output += a;
+        }
+        return output;
     }
 }

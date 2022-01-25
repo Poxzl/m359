@@ -15,9 +15,10 @@ public class Show {
         this.city = city;
     }
 
-    @Override
+
     public String toString() {
-        return "date: " + date + " || price: " + price + " || quantity: " + quantity + " || performer: " + performer + " || city: " + city + "\n";
+        String g =  date + "\t$" + price + " \t" + quantity + " \t" + performer + "\t" + city + "\n";
+        return g;
     }
 
     public String getDate() {
