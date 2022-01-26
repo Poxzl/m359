@@ -45,9 +45,22 @@
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359\Unit7\Ticketmasterlab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
+  <component name="RunManager" selected="Application.SelectionSortexmaple">
     <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7.Examples.BinarySearchExample" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortexmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.SelectionSortexmaple" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
@@ -65,19 +78,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Unit7.Ticketmasterlab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriviaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unut6.Lab.TriviaDriver" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unut6.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortexmaple" />
         <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.algorithms" />
         <item itemvalue="Application.tricatbcblocks" />
-        <item itemvalue="Application.TriviaDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +131,16 @@
       <updated>1631717473093</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit7/Examples/SelectionSortexmaple.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
