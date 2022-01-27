@@ -42,10 +42,20 @@ public class TicketMaster {
     public String toString() {
         System.out.println("Date| Price| Quantity| Name| City");
         String output = "";
-        for (Show a : shows
-             ) {
+        for (Show a : shows) {
             output += a;
         }
         return output;
+    }
+
+    public ArrayList<Show> searchByCity(String city){
+        System.out.println(city);
+        ArrayList<Show> showsInPlace = new ArrayList<>();
+        for (int i = 0; i < this.shows.size(); i++) {
+            if(this.shows.get(i).getCity().equalsIgnoreCase(city)){
+                showsInPlace.add(this.shows.get(i));
+            }
+        }
+        return showsInPlace;
     }
 }

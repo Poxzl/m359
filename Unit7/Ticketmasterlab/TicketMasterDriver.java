@@ -11,13 +11,27 @@ public class TicketMasterDriver {
 
         // display welcoe message
         // ask user to make a choice 1-6
-        System.out.println("1, 2 ,3 ,4 5, 6 CHOOSE");
+        System.out.println("1. Search By City\n2. Search By Performer");
         Scanner input = new Scanner(System.in);
         boolean correctChosen = false;
         while(!correctChosen){
             try{
                 int chosen = input.nextInt();
                 correctChosen = true;
+
+                if(chosen == 1){
+                    String cityToSearch = input.next();
+                    System.out.println(cityToSearch);
+                    String output = "";
+                    for (Show a : ticketMaster.searchByCity(cityToSearch)) {
+                        output += a;
+                    }
+                    System.out.println(output);
+                }
+
+                if(chosen == 2){
+
+                }
             } catch (InputMismatchException e) {
                 System.out.println("Please enter an integer");
                 input.nextLine();
