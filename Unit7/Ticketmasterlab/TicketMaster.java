@@ -38,9 +38,8 @@ public class TicketMaster {
         this.shows = shows;
     }
 
-    @Override
     public String toString() {
-        System.out.println("Date| Price| Quantity| Name| City");
+        System.out.println("Date   |    Price  |  Quantity  |  Name   |    City");
         String output = "";
         for (Show a : shows) {
             output += a;
@@ -49,7 +48,6 @@ public class TicketMaster {
     }
 
     public ArrayList<Show> searchByCity(String city){
-        System.out.println(city);
         ArrayList<Show> showsInPlace = new ArrayList<>();
         for (int i = 0; i < this.shows.size(); i++) {
             if(this.shows.get(i).getCity().equalsIgnoreCase(city)){
@@ -57,5 +55,9 @@ public class TicketMaster {
             }
         }
         return showsInPlace;
+    }
+
+    public void searchByPerformer(){
+
     }
 }

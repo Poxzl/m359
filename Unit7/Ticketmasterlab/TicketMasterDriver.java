@@ -17,16 +17,24 @@ public class TicketMasterDriver {
         while(!correctChosen){
             try{
                 int chosen = input.nextInt();
+                input.nextLine();
                 correctChosen = true;
 
                 if(chosen == 1){
-                    String cityToSearch = input.next();
-                    System.out.println(cityToSearch);
+                    boolean foundOne = false;
+                    System.out.println("Type the name of the city, make sure to spell it correctly!");
+                    String cityToSearch = input.nextLine();
                     String output = "";
                     for (Show a : ticketMaster.searchByCity(cityToSearch)) {
                         output += a;
+                        foundOne = true;
                     }
-                    System.out.println(output);
+                    if(foundOne){
+                        System.out.println("Date   |    Price  |  Quantity  |  Name   |    City");
+                        System.out.println(output);
+                    }else{
+                        System.out.println("There weren't any shows that match your searched, sorry!");
+                    }
                 }
 
                 if(chosen == 2){

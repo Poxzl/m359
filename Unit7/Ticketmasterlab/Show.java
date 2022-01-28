@@ -17,7 +17,7 @@ public class Show {
 
 
     public String toString() {
-        String g =  date + "\t$" + price + " \t" + quantity + " \t" + performer + "\t" + city + "\n";
+        String g =  date + "\t$" + price + " \t" + quantity + " \t  " + performer + "\t" + city + "\n";
         return g;
     }
 
