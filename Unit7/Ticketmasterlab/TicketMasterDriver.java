@@ -38,7 +38,7 @@ public class TicketMasterDriver {
                 }
 
                 if(chosen == 2){
-
+                    //ticketMaster.searchByPerformer();
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Please enter an integer");

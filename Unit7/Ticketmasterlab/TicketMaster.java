@@ -57,7 +57,22 @@ public class TicketMaster {
         return showsInPlace;
     }
 
-    public void searchByPerformer(){
-
+    public void searchByPerformer(String perf){
+        boolean foundOne = false;
+        System.out.println("Type the name of the Performer, make sure to spell them correctly!");
+        //String cityToSearch = input.nextLine();
+        String output = "";
+        for (Show a : this.shows) {
+            if(a.getPerformer().equalsIgnoreCase(perf)){
+                output += a;
+                foundOne = true;
+            }
+        }
+        if(foundOne){
+            System.out.println("Date   |    Price  |  Quantity  |  Name   |    City");
+            System.out.println(output);
+        }else{
+            System.out.println("There weren't any shows that match your searched, sorry!");
+        }
     }
 }
