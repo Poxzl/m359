@@ -38,7 +38,9 @@ public class TicketMasterDriver {
                 }
 
                 if(chosen == 2){
-                    //ticketMaster.searchByPerformer();
+                    System.out.println("Type the name of the performer, make sure to spell it correctly!");
+                    String perfToSearch = input.nextLine();
+                    ticketMaster.searchByPerformer(perfToSearch);
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Please enter an integer");

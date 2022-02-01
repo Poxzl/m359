@@ -58,8 +58,8 @@ public class TicketMaster {
     }
 
     public void searchByPerformer(String perf){
+        perf = " " + perf;
         boolean foundOne = false;
-        System.out.println("Type the name of the Performer, make sure to spell them correctly!");
         //String cityToSearch = input.nextLine();
         String output = "";
         for (Show a : this.shows) {

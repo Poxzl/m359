@@ -59,6 +59,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.InsertionSortExample" />
+      <module name="m359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSortexmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7.Examples.SelectionSortexmaple" />
       <module name="m359" />
@@ -98,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tricatbcblocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.tricatbcblocks" />
-      <module name="m359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit7.Examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TicketMasterDriver" />
+        <item itemvalue="Application.InsertionSortExample" />
         <item itemvalue="Application.SelectionSortexmaple" />
         <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.algorithms" />
-        <item itemvalue="Application.tricatbcblocks" />
       </list>
     </recent_temporary>
   </component>
