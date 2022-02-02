@@ -11,7 +11,7 @@ public class TicketMasterDriver {
 
         // display welcoe message
         // ask user to make a choice 1-6
-        System.out.println("1. Search By City\n2. Search By Performer");
+        System.out.println("1. Search By City\n2. Search By Performer A-Z\n3. Search By Performer Z-A");
         Scanner input = new Scanner(System.in);
         boolean correctChosen = false;
         while(!correctChosen){
@@ -38,9 +38,20 @@ public class TicketMasterDriver {
                 }
 
                 if(chosen == 2){
-                    System.out.println("Type the name of the performer, make sure to spell it correctly!");
-                    String perfToSearch = input.nextLine();
-                    ticketMaster.searchByPerformer(perfToSearch);
+                    ticketMaster.sortByPerformerAZ();
+                    System.out.println(ticketMaster);
+                }
+                if(chosen == 3){
+                    ticketMaster.sortByPerformerZA();
+                    System.out.println(ticketMaster);
+                }
+                if(chosen == 4){
+                    ticketMaster.sortByPriceLowHigh();
+                    System.out.println(ticketMaster);
+                }
+                if(chosen == 5){
+                    ticketMaster.sortByPriceHighLow();
+                    System.out.println(ticketMaster);
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Please enter an integer");

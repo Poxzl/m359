@@ -23,7 +23,7 @@ public class TicketMaster {
             int quant = fileIn.nextInt();
             String namesandplace = fileIn.nextLine();
             int index = namesandplace.indexOf(",");
-            String performer = namesandplace.substring(0, index);
+            String performer = namesandplace.substring(1, index);
             String city = namesandplace.substring(index + 2);
             Show show = new Show(date, price, quant, performer, city);
             shows.add(show);
@@ -57,8 +57,47 @@ public class TicketMaster {
         return showsInPlace;
     }
 
-    public void searchByPerformer(String perf){
-        perf = " " + perf;
+    public void sortByPerformerAZ() {
+        for (int i = 0; i < this.shows.size() - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < this.shows.size(); j++) {
+                if(this.shows.get(j).getPerformer().compareToIgnoreCase(this.shows.get(minIndex).getPerformer()) < 0){
+                    minIndex = j;
+                }
+            }
+            Show temp = this.shows.get(i);
+            this.shows.set(i, this.shows.get(minIndex));
+            this.shows.set(minIndex, temp);
+        }
+    }
+
+    public void sortByPerformerZA() {
+        for (int i = 0; i < this.shows.size() - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < this.shows.size(); j++) {
+                if (this.shows.get(j).getPerformer().compareToIgnoreCase(this.shows.get(minIndex).getPerformer()) > 0) {
+                    minIndex = j;
+                }
+            }
+            Show temp = this.shows.get(i);
+            this.shows.set(i, this.shows.get(minIndex));
+            this.shows.set(minIndex, temp);
+        }
+    }
+
+    public void sortByPrice
+}
+
+
+
+
+
+
+
+
+        /* perf = " " + perf;
         boolean foundOne = false;
         //String cityToSearch = input.nextLine();
         String output = "";
@@ -74,5 +113,5 @@ public class TicketMaster {
         }else{
             System.out.println("There weren't any shows that match your searched, sorry!");
         }
-    }
-}
+
+         */

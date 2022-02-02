@@ -26,7 +26,7 @@ public class SelectionSortexmaple {
             }
 
             Integer temp = list.get(i);
-            list.set(i, list.get(i));
+            list.set(i, list.get(minIndex));
             list.set(minIndex, temp);
         }
     }
