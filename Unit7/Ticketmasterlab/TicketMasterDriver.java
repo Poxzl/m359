@@ -46,11 +46,11 @@ public class TicketMasterDriver {
                     System.out.println(ticketMaster);
                 }
                 if(chosen == 4){
-                    ticketMaster.sortByPriceLowHigh();
+                    ticketMaster.sortByPriceLowToHigh();
                     System.out.println(ticketMaster);
                 }
                 if(chosen == 5){
-                    ticketMaster.sortByPriceHighLow();
+                    ticketMaster.sortByPriceHighToLow();
                     System.out.println(ticketMaster);
                 }
             } catch (InputMismatchException e) {
