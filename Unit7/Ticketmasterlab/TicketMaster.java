@@ -99,13 +99,22 @@ public class TicketMaster {
             this.shows.get(pos).setPrice(valueToInsert);
             //this.shows.set(pos, valueToInsert);
         }
-        System.out.println(this.shows);
     }
 
 
 
     public void sortByPriceHighToLow(){
-        
+        for (int i = 1; i < this.shows.size(); i++) {
+            double valueToInsert = this.shows.get(i).getPrice();
+            int pos = i;
+            while(pos > 0 && this.shows.get(pos - 1).getPrice() < valueToInsert){
+                this.shows.get(pos).setPrice(this.shows.get(pos - 1).getPrice());
+                //this.shows.set(pos, this.shows.get(pos - 1));
+                pos--;
+            }
+            this.shows.get(pos).setPrice(valueToInsert);
+            //this.shows.set(pos, valueToInsert);
+        }
     }
 }
 
