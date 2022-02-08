@@ -7,6 +7,14 @@ public class Show {
     private String performer;
     private String city;
 
+    /**
+     * makes a shows with the parameters
+     * @param date
+     * @param price
+     * @param quantity
+     * @param performer
+     * @param city
+     */
     public Show(String date, double price, int quantity, String performer, String city) {
         this.date = date;
         this.price = price;
@@ -17,7 +25,7 @@ public class Show {
 
 
     public String toString() {
-        String g =  date + "\t$" + price + " \t" + quantity + " \t  " + performer + "\t" + city + "\n";
+        String g =  date + "    $" + price + "      " + quantity + "      " + performer + "       " + city + "\n";
         return g;
     }
 

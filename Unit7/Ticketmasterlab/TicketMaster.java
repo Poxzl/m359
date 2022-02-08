@@ -8,12 +8,19 @@ import java.util.Scanner;
 public class TicketMaster {
     private ArrayList<Show> shows;
 
-
+    /**
+     * makes a shows array
+     * @throws FileNotFoundException
+     */
     public TicketMaster() throws FileNotFoundException {
         shows = new ArrayList<>();
         makeShows();
     }
 
+    /**
+     * fills the shows array with shows
+     * @throws FileNotFoundException
+     */
     public void makeShows() throws FileNotFoundException {
         File myFile = new File("showData.txt");
         Scanner fileIn = new Scanner(myFile);
@@ -47,6 +54,11 @@ public class TicketMaster {
         return output;
     }
 
+    /**
+     * searches through the array for the selected city
+     * @param city
+     * @return an array with the shows
+     */
     public ArrayList<Show> searchByCity(String city){
         ArrayList<Show> showsInPlace = new ArrayList<>();
         for (int i = 0; i < this.shows.size(); i++) {
@@ -57,6 +69,9 @@ public class TicketMaster {
         return showsInPlace;
     }
 
+    /**
+     * uses selection sort to sort the performers by A-Z
+     */
     public void sortByPerformerAZ() {
         for (int i = 0; i < this.shows.size() - 1; i++) {
             int minIndex = i;
@@ -71,22 +86,26 @@ public class TicketMaster {
             this.shows.set(minIndex, temp);
         }
     }
-
+    /**
+     * uses selection sort to sort the performers by Z-A
+     */
     public void sortByPerformerZA() {
-        for (int i = 0; i < this.shows.size() - 1; i++) {
+        for (int i = 0; i < shows.size() - 1; i++) {
             int minIndex = i;
 
-            for (int j = i + 1; j < this.shows.size(); j++) {
-                if (this.shows.get(j).getPerformer().compareToIgnoreCase(this.shows.get(minIndex).getPerformer()) > 0) {
+            for (int j = i + 1; j < shows.size(); j++) {
+                if (shows.get(j).getPerformer().compareToIgnoreCase(shows.get(minIndex).getPerformer()) > 0) {
                     minIndex = j;
                 }
             }
-            Show temp = this.shows.get(i);
-            this.shows.set(i, this.shows.get(minIndex));
-            this.shows.set(minIndex, temp);
+            Show temp = shows.get(i);
+            shows.set(i, shows.get(minIndex));
+            shows.set(minIndex, temp);
         }
     }
-
+    /**
+     * uses insertion  sort to sort the price low-high
+     */
     public void sortByPriceLowToHigh(){
         for (int i = 1; i < this.shows.size(); i++) {
             double valueToInsert = this.shows.get(i).getPrice();
@@ -101,7 +120,9 @@ public class TicketMaster {
         }
     }
 
-
+    /**
+     * uses insertion sort to sort the price high-low
+     */
 
     public void sortByPriceHighToLow(){
         for (int i = 1; i < this.shows.size(); i++) {
@@ -117,29 +138,3 @@ public class TicketMaster {
         }
     }
 }
-
-
-
-
-
-
-
-
-        /* perf = " " + perf;
-        boolean foundOne = false;
-        //String cityToSearch = input.nextLine();
-        String output = "";
-        for (Show a : this.shows) {
-            if(a.getPerformer().equalsIgnoreCase(perf)){
-                output += a;
-                foundOne = true;
-            }
-        }
-        if(foundOne){
-            System.out.println("Date   |    Price  |  Quantity  |  Name   |    City");
-            System.out.println(output);
-        }else{
-            System.out.println("There weren't any shows that match your searched, sorry!");
-        }
-
-         */
