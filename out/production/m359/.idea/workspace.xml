@@ -41,17 +41,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chavan1635\Documents\GitHub\m359\Unit9\examples" />
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359" />
       <recent name="C:\Users\Chavan1635\Documents\GitHub\m359\Unit7\Ticketmasterlab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
-    <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.BinarySearchExample" />
+  <component name="RunManager" selected="Application.ShapeTester">
+    <configuration name="MenuTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit9.examples.MenuTester" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="PATTERN" value="Unit9.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.InsertionSortExample" />
+    <configuration name="MethodWritingPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.examples.MethodWritingPractice" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="PATTERN" value="Unit8.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortexmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.SelectionSortexmaple" />
+    <configuration name="ShapeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit9.notes9_3_4.ShapeTester" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="PATTERN" value="Unit9.notes9_3_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketMasterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Ticketmasterlab.TicketMasterDriver" />
+    <configuration name="array2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.examples.array2d" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.Ticketmasterlab.*" />
+          <option name="PATTERN" value="Unit8.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7.Examples.algorithms" />
+    <configuration name="dumbDenna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.examples.dumbDenna" />
       <module name="m359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit7.Examples.*" />
+          <option name="PATTERN" value="Unit8.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicketMasterDriver" />
-        <item itemvalue="Application.SelectionSortexmaple" />
-        <item itemvalue="Application.InsertionSortExample" />
-        <item itemvalue="Application.BinarySearchExample" />
-        <item itemvalue="Application.algorithms" />
+        <item itemvalue="Application.ShapeTester" />
+        <item itemvalue="Application.MenuTester" />
+        <item itemvalue="Application.MethodWritingPractice" />
+        <item itemvalue="Application.dumbDenna" />
+        <item itemvalue="Application.array2d" />
       </list>
     </recent_temporary>
   </component>
