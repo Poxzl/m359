@@ -19,10 +19,7 @@ public class Cardio extends Workout{
 
 
     public String toString() {
-        return "Cardio{" +
-                "distance=" + distance +
-                ", speed=" + speed +
-                '}';
+        return ":      " + getName() + "\t " + getDuration();
     }
     @Override
     public int startExercise(){

@@ -40,13 +40,14 @@ public class WorkoutPlan {
     public String toString(){
         String str = "";
         for (int i = 0; i < workouts.length; i++) {
-            str += "*** WEEK #" + curWeek + " ***\nWORKOUT NUM\t     NAME \t     MINUTES\n ";
+            str += "*** WEEK #" + curWeek + " ***\nWORKOUT NUM\t     NAME \t     MINUTES\n";
             for (int j = 0; j < 7; j++) {
-                str += "Workout #" + nxtWorkoutNumber + ": \t" + workouts[i][j].getName() + "  \t\t" + workouts[i][j].getDuration() + "\n";
+                str += "Workout #" + nxtWorkoutNumber + workouts[i][j] + "\n";
                 nxtWorkoutNumber++;
             }
             curWeek++;
         }
         return str;
     }
+    public
 }

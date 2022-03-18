@@ -14,7 +14,7 @@ public class Wellness extends Workout {
 
     @Override
     public String toString() {
-        return "Wellness{" + "numStretches=" + numStretches + '}';
+        return ":      " + getName() + "\t " + getDuration();
     }
     public int startExercise(){
         int rand = (int)(Math.random() * 6) + 5;

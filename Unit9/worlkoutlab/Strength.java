@@ -14,7 +14,7 @@ public class Strength extends Workout {
 
     @Override
     public String toString() {
-        return "Strength{" + "weight=" + weight + '}';
+        return ":      " + getName() + "\t " + getDuration();
     }
 
     public int startExercise(){
